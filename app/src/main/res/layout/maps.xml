@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.sunzero.findfloats.Maps">
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+        <Button
+            android:id="@+id/btn_maps"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/ic_location"
+            android:text="แผนที่"
+            android:textAlignment="center" />
+
+        <Button
+            android:id="@+id/btn_des"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/btn_maps"
+            android:drawableTop="@drawable/ic_description"
+            android:text="รายละเอียด"
+            android:textAlignment="center" />
+
+        <Button
+            android:id="@+id/btn_manu"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toEndOf="@+id/btn_des"
+            android:drawableTop="@drawable/ic_list"
+            android:text="เมนู"
+            android:textAlignment="center" />
+
+    </RelativeLayout>
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:map="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.example.sunzero.findfloats.MapsActivity" />
+
+</LinearLayout>

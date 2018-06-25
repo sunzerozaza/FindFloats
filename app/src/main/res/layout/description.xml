@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.sunzero.findfloats.Description">
+
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+        <Button
+            android:id="@+id/btn_maps"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/ic_location"
+            android:text="แผนที่"
+            android:textAlignment="center" />
+
+        <Button
+            android:id="@+id/btn_des"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/btn_maps"
+            android:drawableTop="@drawable/ic_description"
+            android:text="รายละเอียด"
+            android:textAlignment="center" />
+
+        <Button
+            android:id="@+id/btn_manu"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toEndOf="@+id/btn_des"
+            android:drawableTop="@drawable/ic_list"
+            android:text="เมนู"
+            android:textAlignment="center" />
+
+    </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignBottom="@+id/result_list"
+            android:layout_alignParentStart="true">
+
+
+            <EditText
+                android:id="@+id/search_field"
+                android:layout_width="400dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginEnd="43dp"
+                android:layout_toStartOf="@+id/search_btn"
+                android:ems="10"
+                android:inputType="textPersonName" />
+
+            <ImageButton
+                android:id="@+id/search_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/search_field"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="85dp"
+                app:srcCompat="@drawable/ic_search_black_24dp" />
+
+            <ListView
+                android:id="@+id/result_list"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/search_btn" />
+        </RelativeLayout>
+</LinearLayout>

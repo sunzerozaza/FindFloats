@@ -1,0 +1,99 @@
+{
+  "project_info": {
+    "project_number": "808650171107",
+    "firebase_url": "https://findfloatingmarketincentralreg.firebaseio.com",
+    "project_id": "findfloatingmarketincentralreg",
+    "storage_bucket": "findfloatingmarketincentralreg.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:808650171107:android:74e69a20f68f3342",
+        "android_client_info": {
+          "package_name": "com.example.sunzero.findfloatingmarketin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "808650171107-0rjdku513psadsjol3871kcgs28r3p7d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sunzero.findfloatingmarketin",
+            "certificate_hash": "d59b1c7b3e2db1c3365e47420727c8922571c577"
+          }
+        },
+        {
+          "client_id": "808650171107-me9757h4986h7qs1l201kbvl5vlf68vc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA84aJg3yTlLBeR4JNYz5e7vNhS8_8iKZY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "808650171107-me9757h4986h7qs1l201kbvl5vlf68vc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:808650171107:android:d8452221a30e3bca",
+        "android_client_info": {
+          "package_name": "com.example.sunzero.findfloats"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "808650171107-4q3rch9ehfjvu9qa8esab2rcr1bekr73.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sunzero.findfloats",
+            "certificate_hash": "d59b1c7b3e2db1c3365e47420727c8922571c577"
+          }
+        },
+        {
+          "client_id": "808650171107-me9757h4986h7qs1l201kbvl5vlf68vc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA84aJg3yTlLBeR4JNYz5e7vNhS8_8iKZY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "808650171107-me9757h4986h7qs1l201kbvl5vlf68vc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
